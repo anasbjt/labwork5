@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Full Review-Anas Boujatouy</title>
+    <script src="./Js/script.js" defer></script>
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Excel :</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="exel.html">Excel</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <form id="main-form" name="mainform">
+          <label for="numbers">Enter your numbers separated by spaces :</label>
+          <input type="text" id="numbers" name="numbers" />
+          <div class="operations-container">
+            <input type="radio" name="operation" id="sum" value="sum" checked />
+            <label for="sum">AutoSum</label>
+            <input type="radio" name="operation" id="average" value="average" />
+            <label for="average">Average</label>
+            <input type="radio" name="operation" id="max" value="max" />
+            <label for="max">Max</label>
+            <input type="radio" name="operation" id="min" value="min" />
+            <label for="min">Min</label>
+          </div>
+          <input id="submit-calculation" type="submit" value="Calculate" />
+        </form>
+        <div id="output">
+          Result: <span id="result"></span>
+        </div>
+      </main>
+      <footer>
+        <p>
+          ILAC & EFREI Partnership- HTML, CSS, and JavaScript Main Lab-work -
+          Anas Boujatouy
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
